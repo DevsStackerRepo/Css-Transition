@@ -1,0 +1,25 @@
+/*h1*/
+h1{
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+	font-family: Arial;
+}
+
+.circle-box{
+	width: 250px;
+	height: 250px;
+	margin: 100px auto;
+	border-radius: 50%;
+	background-color: limegreen;
+	transition: all .5s linear;
+}
+
+.circle-box:hover{
+	width: 100px;
+	height: 100px;
+	transform: rotate(180deg);
+	background-color: blue;
+	border-radius: 0;
+	
+}
